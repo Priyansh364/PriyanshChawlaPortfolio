@@ -153,7 +153,7 @@ const Navbar = () => {
             <img className="w-8" src="/git.png" alt="" />
           </a>
           <div>
-            <a href="file_path" download="file_name">
+            <a href="https://www.canva.com/design/DAFsWJ0vvRE/_4P33t2XYNduTTRjiHAXzQ/view?utm_content=DAFsWJ0vvRE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
               <img className="w-8" src="/CV.png" alt="" />
             </a>
           </div>

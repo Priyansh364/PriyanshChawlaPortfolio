@@ -70,7 +70,7 @@ const Footer = () => {
             <img className="w-8" src="/git.png" alt="" />
           </a>
           <div>
-            <a href="/Priyansh_Chawla_Resume.pdf" download="Priyansh Chawla Resume">
+            <a href="https://www.canva.com/design/DAFsWJ0vvRE/_4P33t2XYNduTTRjiHAXzQ/view?utm_content=DAFsWJ0vvRE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
               <img className="w-8" src="/CV.png" alt="" />
             </a>
           </div>
