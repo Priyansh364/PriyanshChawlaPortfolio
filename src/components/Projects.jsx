@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   const List=[
     {
-    Link:"https://netflix-clone-git-main-priyanshs-projects-0a216056.vercel.app/",
+    Link:"https://netflix-clone-am0ngv45m-priyanshs-projects-0a216056.vercel.app/",
 src:"/Netflix.png",
 Projectname:"Netflix-Clone",
 Projectdescription:"Html, CSS"
