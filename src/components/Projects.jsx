@@ -62,7 +62,7 @@ Projectdescription:"Frontend Project"
           <img className="w-72 p-5" src={item.src} alt="" />
           <div className="p-5  ">
             <div className=" mb-3 text-3xl">{item.Projectname}</div>
-            <div>{item.Projectdescription}</div>
+            <div className="text-sm sm:text-base">{item.Projectdescription}</div>
           </div>
         </a>
         ))}

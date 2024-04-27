@@ -24,10 +24,15 @@ const Experience = () => {
             </div>
             <div className="flex mt-10 justify-between">
               <div className=" text-xl lg:text-2xl">Wipro-India</div>
+
               <div className="flex items-center">2023 - Present</div>
               <div></div>
             </div>
-            <div>(Project Engineer)</div>
+            <div className="flex justify-between">(Project Engineer)
+            <div className="flex items-center pr-6">Bengaluru</div>
+            <div></div>
+
+            </div>
             <div className="flex mt-10 justify-between">
               <div className=" text-xl lg:text-2xl">Wipro-India</div>
               <div className="flex items-center">2022-23</div>

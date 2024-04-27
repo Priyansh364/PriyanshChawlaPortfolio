@@ -9,13 +9,13 @@ const About = () => {
         id="About"
         className=" flex flex-col lg:flex-row items-center bg-slate-300   aboutback"
       >
-        <div className="lg:w-1/2 w-full sm:w-f lg:px-10 flex flex-col  justify-start items-start text-justify">
-          <div className="bg-eec9ac mt-10 p-5 text-slate-100 text-start font-serif font-bold text-7xl word-animation">
+        <div className="lg:w-1/2 w-full sm:w-f lg:px-10 flex flex-col  justify-start items-start text-center">
+          <div className="t mt-10 p-5 w-full text-center text-slate-100  font-serif font-bold text-7xl word-animation">
             Hello !
           </div>
-          <div className="paragh-animation flex flex-col gap-5 text-slate-100 text-5xl text-start p-1 ml-4">
+          <div className="paragh-animation flex flex-col  gap-5 text-slate-100 text-5xl text-start sm:w-[60%] w-[96%] mx-auto p-1 ">
             {" "}
-            <div className="font-normal lg:text-3xl text-2xl">
+            <div className="font-normal max-h-8 lg:text-3xl text-2xl">
               I'm Priyansh, A{"    "}
               <Typewriter
                 words={[
@@ -121,14 +121,15 @@ const About = () => {
               <h2 className="my-3 font-semibold lg:text-3xl text-2xl text-slate-50">
                 Education:
               </h2>
-              <p>
-                <strong>12th:</strong> Completed 12th from Shri Chaitanya
-                Educational Institution, Vizag.
+              <p className="sm:flex  justify-between">
+                <div className=" w-1/3">12th:</div>
+                <div className="w-1/3 hidden sm:inline">---</div>
+                <div className=" sm:text-center sm:w-2/3">Shri Chaitanya Educational Institution, Vizag. <div>( 79.6 % )</div> </div>
               </p>
-              <p>
-                <strong>College:</strong> Completed college education in
-                Electronics and Telecommunication from Jabalpur Engineering
-                College.
+              <p className="sm:flex justify-between">
+                <div className=" w-1/3">College:</div>
+                <div className="w-1/3 hidden sm:inline ">---</div>
+                <div className=" sm:text-center sm:w-2/3">Jabalpur Engineering College, Jabalpur, Mp <div>( 7.3 CGPA )</div> </div>
               </p>
 
               <h2 className="my-3 font-semibold lg:text-3xl text-2xl text-slate-50">
@@ -137,13 +138,13 @@ const About = () => {
               <p>
                 <ul className="list-disc ml-3">
                   <li>
-                    <strong>Internship at Wipro:</strong> During my tenure at
+                    <strong>Internship at Wipro:</strong> <br /> During my tenure at
                     Wipro, I underwent rigorous training in MEAN stack
                     development, which laid the foundation for my career in web
                     development.
                   </li>
                   <li>
-                    <strong>Internship at Wipro:</strong> During my 1-year
+                    <strong>Internship at Wipro:</strong> <br /> During my 1-year
                     tenure at Wipro, I underwent rigorous training in MERN stack
                     development and Software Development Engineer in Test
                     (SDET). I successfully completed multiple projects in both
@@ -155,16 +156,22 @@ const About = () => {
                 Technical Skills:
               </h2>
               <ul className="list-disc ml-4">
-                <li>
-                  MERN Stack Development: Proficient in developing web
-                  applications using MongoDB, Express.js, React.js, and Node.js.
+                <li >
+                    <strong> MERN Stack Development: </strong>  <br />
+                    Proficient in developing web
+                    applications using MongoDB, Express.js, React.js, and Node.js.
                 </li>
-                <li>
-                  Selenium Java: Skilled in utilizing Selenium with Java for
+                <li >
+                  <strong> Selenium Java:  </strong> 
+                  <br />
+                  Skilled in utilizing Selenium with Java for
                   automated testing purposes.
                 </li>
-                <li>
-                  Frameworks and Tools: Experienced in utilizing TestNG,
+                <li >
+                  <strong>  Frameworks and Tools:  </strong>  
+                   <br />
+
+                  Experienced in utilizing TestNG,
                   Cucumber BDD, Extent Reports, Data-Driven framework, and Page
                   Object Model for efficient project development and testing.
                 </li>
@@ -174,12 +181,12 @@ const About = () => {
               </h2>
               <ul className="list-disc ml-4">
                 <li>
-                  Robotics Club: Actively participated in the Robotics club
+                  <strong> Robotics Club: </strong>  <br /> Actively participated in the Robotics club
                   during my college years, fostering an interest in coding and
                   technology.
                 </li>
                 <li>
-                  Technirion Bhopal Zonal: Participated in the Maze Solver
+                  <strong> Technirion Bhopal Zonal:  </strong>   <br /> Participated in the Maze Solver
                   event, where my exposure tech gave a sparking passion for
                   coding.
                 </li>
