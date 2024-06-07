@@ -144,7 +144,7 @@ const About = () => {
                     development.
                   </li>
                   <li>
-                    <strong>Internship at Wipro:</strong> <br /> During my 1-year
+                    <strong>Work at Wipro:</strong> <br /> During my 1-year
                     tenure at Wipro, I underwent rigorous training in MERN stack
                     development and Software Development Engineer in Test
                     (SDET). I successfully completed multiple projects in both
